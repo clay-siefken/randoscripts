@@ -12,6 +12,7 @@ This is a collection of the random scripts I use to keep my poop in a group.
 - [ ] Plaid: my money
 - [ ] Dropbox: my data
 - [ ] Google Docs: my thoughts
+- [ ] Google Calendar: my reminders
 - [ ] Fitbit: my body
 - [ ] Overleaf: my writing
 - [ ] Spotify: my music
