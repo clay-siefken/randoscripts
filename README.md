@@ -14,3 +14,8 @@ This is a collection of the random scripts I use to keep my poop in a group.
 - [ ] Fitbit: my body
 - [ ] Overleaf: my writing
 
+# TODO: Capabilities
+- [ ] Keeping this in a README is stupid
+ - [ ] script to add items to a Todoist project
+ - [ ] script to list items in a Todoist project
+ - [ ] script to complete items in a Todoist project
