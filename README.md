@@ -14,6 +14,10 @@ This is a collection of the random scripts I use to keep my poop in a group.
 - [ ] Google Docs: my thoughts
 - [ ] Fitbit: my body
 - [ ] Overleaf: my writing
+- [ ] Spotify: my music
+- [ ] Goodreads: my books
+- [ ] AWS: my compute
+  - their cli is probably enough, but I need some scripts around it
 
 # TODO: Capabilities
 - [ ] Keeping this in a README is stupid
