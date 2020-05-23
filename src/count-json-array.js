@@ -11,5 +11,5 @@ process.stdin.on('readable', () => {
 
 process.stdin.on('end', () => {
   let j = JSON.parse(allChunks);
-  console.log(`I have ${j.length} projects.`);
+  console.log(`${j.length}`);
 });
