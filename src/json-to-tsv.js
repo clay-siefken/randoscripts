@@ -12,7 +12,13 @@ process.stdin.on('readable', () => {
 process.stdin.on('end', () => {
   let j = JSON.parse(allChunks);
 
-  // TODO: filter by argument
+  let propertiesToReturn = [];
+  for (let i = 2; i < process.argv.length; i++) {
+    propertiesToReturn.push(process.argv[i]);
+  }
 
-  console.log(`${j.length}`);
+  console.log(propertiesToReturn.join('\t'));
+  for (let item of j){
+   console.log(propertiesToReturn.map((p) => item[p]).join('\t'));
+  }
 });
