@@ -1,4 +1,4 @@
-all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-by-id
+all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name
 
 tasks:
 	cp src/tasks.sh ${RANDO_BIN}/tasks
@@ -20,7 +20,7 @@ get-tasks-by-project-id:
 	cp src/get-tasks-by-project-id.sh ${RANDO_BIN}/get-tasks-by-project-id
 	chmod +x ${RANDO_BIN}/get-tasks-by-project-id
 
-get-project-by-id:
-	cp src/get-project-by-id.sh ${RANDO_BIN}/get-project-by-id
-	chmod +x ${RANDO_BIN}/get-project-by-id
+get-project-id-by-name:
+	cp src/get-project-id-by-name.sh ${RANDO_BIN}/get-project-id-by-name
+	chmod +x ${RANDO_BIN}/get-project-id-by-name
 	
