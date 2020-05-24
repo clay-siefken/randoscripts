@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 process.stdin.setEncoding('utf8');
 let allChunks = '';
 
