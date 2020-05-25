@@ -1,4 +1,4 @@
-all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column folders json-extract-property
+all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column folders json-extract-property download upload
 
 tasks:
 	cp src/tasks.sh ${RANDO_BIN}/tasks
@@ -44,4 +44,10 @@ json-extract-property:
 	cp src/json-extract-property.js ${RANDO_BIN}/json-extract-property
 	chmod +x ${RANDO_BIN}/json-extract-property
 
+download:
+	cp src/download.sh ${RANDO_BIN}/download
+	chmod +x ${RANDO_BIN}/download
 
+upload:
+	cp src/upload.sh ${RANDO_BIN}/upload
+	chmod +x ${RANDO_BIN}/upload

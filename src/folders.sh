@@ -1,3 +1,5 @@
+#!/bin/sh
+
 curl -X POST https://api.dropboxapi.com/2/files/list_folder \
   --silent \
   --header "Authorization: Bearer $DROPBOX_TOKEN" \
