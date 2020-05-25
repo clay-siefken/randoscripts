@@ -1,4 +1,4 @@
-all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column
+all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column folders json-extract-property
 
 tasks:
 	cp src/tasks.sh ${RANDO_BIN}/tasks
@@ -7,6 +7,10 @@ tasks:
 projects:
 	cp src/projects.sh ${RANDO_BIN}/projects
 	chmod +x ${RANDO_BIN}/projects
+
+folders:
+	cp src/folders.sh ${RANDO_BIN}/folders
+	chmod +x ${RANDO_BIN}/folders
 
 count-json-array:
 	cp src/count-json-array.js ${RANDO_BIN}/count-json-array
@@ -35,4 +39,9 @@ create-task:
 get-first-column:
 	cp src/get-first-column.sh ${RANDO_BIN}/get-first-column
 	chmod +x ${RANDO_BIN}/get-first-column
+
+json-extract-property:
+	cp src/json-extract-property.js ${RANDO_BIN}/json-extract-property
+	chmod +x ${RANDO_BIN}/json-extract-property
+
 
