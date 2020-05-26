@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/bin/sh
 
 curl --silent -X GET \
   https://api.todoist.com/rest/v1/tasks \
