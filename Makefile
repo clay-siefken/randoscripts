@@ -1,4 +1,4 @@
-all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column folders json-extract-property download upload
+all: projects count-json-array tasks json-to-tsv get-tasks-by-project-id get-project-id-by-name close-task create-task get-first-column folders json-extract-property download upload list-github-events
 
 tasks:
 	cp src/tasks.sh ${RANDO_BIN}/tasks
@@ -51,3 +51,7 @@ download:
 upload:
 	cp src/upload.sh ${RANDO_BIN}/upload
 	chmod +x ${RANDO_BIN}/upload
+
+list-github-events:
+	cp src/list-github-events.sh ${RANDO_BIN}/list-github-events
+	chmod +x ${RANDO_BIN}/list-github-events
